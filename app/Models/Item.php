@@ -15,4 +15,10 @@ class Item extends Model
         'price',
         'is_selling'
     ];
+
+    protected $dates = [
+        'deleted_at',
+        'created_at',
+        'updated_at'
+    ];
 }
